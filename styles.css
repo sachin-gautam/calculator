@@ -73,7 +73,7 @@ button.operator:hover {
 }
 
 button#zero {
-    grid-column: span 2;
+    grid-column: span 3;
     width: auto;
 }
 

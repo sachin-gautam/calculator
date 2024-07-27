@@ -23,10 +23,11 @@ function operate(a,b,o){
             return multiply(a,b);
             break;
         case '/':
-            return divide(a,b);
+            if(b!=0){ return divide(a,b);}
+            else{ return "Infinity"}
             break;
         default:
-            "invalid operation"
+            return "invalid"
             break;
     }
 }
